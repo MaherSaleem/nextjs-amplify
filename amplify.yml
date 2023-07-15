@@ -1,5 +1,6 @@
 version: 1
 frontend:
+  appRoot: packages/webnext
   phases:
     preBuild:
       commands:
@@ -7,13 +8,8 @@ frontend:
     build:
       commands:
         - yarn build
-        - echo hi1
-        - ls packages
-        - ls packages/webnext
-        - ls packages/webnext/.next
-        - echo hi2
   artifacts:
-    baseDirectory: packages/webnext/.next
+    baseDirectory: .next
     files:
       - '**/*'
   cache:

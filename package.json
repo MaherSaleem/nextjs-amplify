@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "webnext:dev": "yarn workspace webnext dev",
-    "webnext:build": "yarn workspace webnext build",
-    "webnext:start": "yarn workspace webnext start",
-    "webnext:lint": "yarn workspace webnext next lint"
+    "dev": "yarn workspace webnext dev",
+    "build": "yarn workspace webnext build",
+    "start": "yarn workspace webnext start",
+    "lint": "yarn workspace webnext next lint"
   },
   "workspaces": {
     "packages": [

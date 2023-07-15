@@ -6,7 +6,7 @@ frontend:
         - yarn install
     build:
       commands:
-        - yarn webnext:build
+        - yarn build
         - echo hi1
         - ls packages
         - ls packages/webnext

@@ -7,7 +7,6 @@ frontend:
     build:
       commands:
         - yarn build
-        -
   artifacts:
     baseDirectory: packages/webnext/.next
     files:

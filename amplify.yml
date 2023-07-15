@@ -7,6 +7,8 @@ frontend:
     build:
       commands:
         - yarn build
+    postBuild:
+      commands:
         - yarn start
   artifacts:
     baseDirectory: .next

@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - pwd
-        - cd ..
+        - cd ../..
         - pwd
         - yarn install
         - cd -

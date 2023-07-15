@@ -1,0 +1,21 @@
+version: 1
+applications:
+  - frontend:
+      phases:
+        preBuild:
+          commands:
+            - pwd
+            - yarn install
+        build:
+          commands:
+            - pwd
+            - yarn run build
+      artifacts:
+        baseDirectory: packages/webnext/.next
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
+      buildPath: /
+    appRoot: packages/webnext

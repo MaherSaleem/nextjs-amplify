@@ -3,12 +3,19 @@ frontend:
   phases:
     preBuild:
       commands:
+        - pwd
+        - cd ..
+        - pwd
         - yarn install
+        - cd -
+        - pwd
     build:
       commands:
+        - pwd
         - yarn build
+        - pwd
   artifacts:
-    baseDirectory: packages/webnext/.next
+    baseDirectory: .next
     files:
       - '**/*'
   cache:

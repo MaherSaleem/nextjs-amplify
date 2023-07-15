@@ -7,9 +7,7 @@ frontend:
     build:
       commands:
         - yarn build
-        - echo hi1
-        - ls .next
-        - echo hi2
+        - yarn start
   artifacts:
     baseDirectory: .next
     files:

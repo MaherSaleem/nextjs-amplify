@@ -5,10 +5,12 @@ applications:
         preBuild:
           commands:
             - pwd
+            - ls
             - yarn install
         build:
           commands:
             - pwd
+            - ls
             - yarn run build
       artifacts:
         baseDirectory: packages/webnext/.next

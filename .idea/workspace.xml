@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f8a604c-a611-4089-9ece-199599e32b3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0f8a604c-a611-4089-9ece-199599e32b3a" name="Changes" comment="remove standalone">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amplify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/amplify.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/webnext/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/webnext/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="C:\Users\The-M\PhpstormProjects\next-js-amplify\webnext" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -144,7 +143,79 @@
       <option name="project" value="LOCAL" />
       <updated>1689417877715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test fix">
+      <option name="closed" value="true" />
+      <created>1689428982506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689428982506</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test make nextjs standalone">
+      <option name="closed" value="true" />
+      <created>1689429759059</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689429759059</updated>
+    </task>
+    <task id="LOCAL-00009" summary="use monorepo in amplify.yml">
+      <option name="closed" value="true" />
+      <created>1689430751208</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689430751208</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix">
+      <option name="closed" value="true" />
+      <created>1689431351444</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689431351444</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix">
+      <option name="closed" value="true" />
+      <created>1689431463921</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689431463921</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix">
+      <option name="closed" value="true" />
+      <created>1689432219011</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689432219011</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix">
+      <option name="closed" value="true" />
+      <created>1689432413798</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689432413798</updated>
+    </task>
+    <task id="LOCAL-00014" summary="remove standalone">
+      <option name="closed" value="true" />
+      <created>1689432794318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689432794318</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add pwd">
+      <option name="closed" value="true" />
+      <created>1689433238814</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689433238814</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +241,12 @@
     <MESSAGE value="added yarn frozen lock" />
     <MESSAGE value="Move to monorepo" />
     <MESSAGE value="Added yarn.lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added yarn.lock" />
+    <MESSAGE value="test fix" />
+    <MESSAGE value="test make nextjs standalone" />
+    <MESSAGE value="use monorepo in amplify.yml" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="remove standalone" />
+    <MESSAGE value="Add pwd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pwd" />
   </component>
 </project>

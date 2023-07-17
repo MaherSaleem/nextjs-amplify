@@ -8,7 +8,7 @@ applications:
         build:
           commands:
             - echo Maher
-            - echo $BUILD_ENV
+            - echo $AMPLIFY_MONOREPO_APP_ROOT
             - echo Mahe2
             - yarn run build
       artifacts:

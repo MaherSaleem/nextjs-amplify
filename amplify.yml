@@ -4,13 +4,12 @@ applications:
       phases:
         preBuild:
           commands:
-            - pwd
-            - ls
             - yarn install
         build:
           commands:
-            - pwd
-            - ls
+            - echo Maher
+            - echo $BUILD_ENV
+            - echo Mahe2
             - yarn run build
       artifacts:
         baseDirectory: packages/webnext/.next

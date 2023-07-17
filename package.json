@@ -14,12 +14,9 @@
     ]
   },
   "engines": {
-    "node": "16.x",
+    "node": "18.x",
     "yarn": "1.x"
   },
   "dependencies": {
-  },
-  "volta": {
-    "node": "16.13.0"
   }
 }
